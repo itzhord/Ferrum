@@ -1,4 +1,4 @@
-<script>
+<script lang="ts">
     import Icon from '@iconify/svelte';
 
     // Import your images
@@ -33,15 +33,15 @@
 
     let currentIndex = 0;
 
-    function next() {
+    function next(): void {
         currentIndex = (currentIndex + 1) % images.length;
     }
 
-    function prev() {
+    function prev(): void {
         currentIndex = (currentIndex - 1 + images.length) % images.length;
     }
 
-    function goToSlide(index) {
+    function goToSlide(index: number): void {
         currentIndex = index;
     }
 </script>
@@ -53,7 +53,7 @@
                 <div class="relative flex flex-row bg-white duration-700 ease-in-out">
                     <img src={item.src} alt={item.title} class="ml-[2rem] w-[50%] rounded-xl object-cover" />
                     <div class="flex flex-col justify-center p-[3rem] text-[0.7rem]">
-                        <h1 class="text-[1.5rem] font-bold mt-[-1rem] text-left">{item.title}</h1>
+                        <h1 class="text-[1.5rem] font-semibold mt-[-1rem] text-left">{item.title}</h1>
                         <p class="text-[1.2rem] mt-[2rem] text-left">{item.text}</p>
                     </div>
                 </div>
@@ -63,7 +63,7 @@
 </div>
 
 <!-- Navigation arrows -->
-<div class='relative flex gap-2 ml-[70rem] bottom-[6rem]'>
+<div class='relative flex gap-2 ml-[70rem] bottom-[5rem]'>
     <button class="W-[1rem] H-[1rem] rounded-full shadow-inner" on:click={prev}>
         <Icon icon="ic:round-arrow-left" class="text-[2.5rem] text-black" />
     </button>
@@ -84,3 +84,6 @@
         ></button>
     {/each}
 </div>
+
+
+
