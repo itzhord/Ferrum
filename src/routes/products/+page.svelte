@@ -2,6 +2,7 @@
 	import NavbarForall from '$lib/components/NavbarForall.svelte';
     import GetInTouch from '$lib/components/GetInTouch.svelte';
     import Footer from '$lib/components/Footer.svelte';
+    import OilComponents from '$lib/components/OilComponents.svelte';
     
 </script>
 
@@ -20,6 +21,7 @@
 </div>
 
 
+<OilComponents />
 
 <GetInTouch />
 
