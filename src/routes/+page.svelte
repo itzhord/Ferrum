@@ -7,12 +7,12 @@
 	import Carousel from '$lib/components/Carousel.svelte';
 	import Footer from '$lib/components/Footer.svelte';
 	import GetInTouch from '$lib/components/GetInTouch.svelte';
-	import AOS from 'aos';
+	// import AOS from 'aos';
 	import 'aos/dist/aos.css';
 
 	
 
-	AOS.init();
+	// AOS.init();
 </script>
 
 <div class="bg-white">
@@ -60,13 +60,8 @@
 			</div>
 
 			<!-- AOS animation section -->
-			<div class="ml-[3rem] mt-[3rem] flex w-[80%] flex-row gap-[2rem]">
-				<div
-					data-aos="fade-up"
-					data-aos-delay="50"
-					data-aos-easing="ease-in-out"
-					data-aos-duration="1000"
-					class="flex w-[1/3] flex-col"
+			<div class="ml-[3rem] mt-[4rem] flex w-[80%] flex-row gap-[2rem]">
+				<div class="flex w-[1/3] flex-col"
 				>
 					<h2 class="ml-[1rem] text-[1.1rem] font-bold">Oil and Gas Procurement</h2>
 					<p class="p-[1rem] font-semibold text-blue-900">
@@ -75,12 +70,7 @@
 						industry, ensuring that you get the best deals possible.
 					</p>
 				</div>
-				<div
-					data-aos="fade-up"
-					data-aos-delay="50"
-					data-aos-easing="ease-in-out"
-					data-aos-duration="1300"
-					class="flex w-[1/3] flex-col"
+				<div class="flex w-[1/3] flex-col"
 				>
 					<h2 class="ml-[1rem] text-[1.1rem] font-bold">Advisory and Technical Services</h2>
 					<p class="p-[1rem] font-semibold text-blue-900">
@@ -89,12 +79,7 @@
 						industry, ensuring that you get the best deals possible.
 					</p>
 				</div>
-				<div
-					data-aos="fade-up"
-					data-aos-delay="50"
-					data-aos-easing="ease-in-out"
-					data-aos-duration="1500"
-					class="flex w-[1/3] flex-col"
+				<div class="flex w-[1/3] flex-col"
 				>
 					<h2 class="ml-[1rem] text-[1.1rem] font-bold">Global Trading Solution</h2>
 					<p class="p-[1rem] font-semibold text-blue-900">

@@ -51,12 +51,7 @@
 </script>
 
 <div class="mt-[-12rem] mb-[1rem] flex flex-col">
-    <h1
-        data-aos="fade-up"
-        data-aos-delay="50"
-        data-aos-easing="ease-in-out"
-        data-aos-duration="900"
-        class="mb-[1rem] ml-[4rem] text-[2.5rem] font-bold text-black"
+    <h1 class="mb-[1rem] ml-[4rem] text-[2.5rem] font-bold text-black"
     >
         Testimonials
     </h1>
