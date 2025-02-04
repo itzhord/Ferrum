@@ -7,12 +7,12 @@
 	import Carousel from '$lib/components/Carousel.svelte';
 	import Footer from '$lib/components/Footer.svelte';
 	import GetInTouch from '$lib/components/GetInTouch.svelte';
-	// import AOS from 'aos';
+	import AOS from 'aos';
 	import 'aos/dist/aos.css';
 
 	
 
-	// AOS.init();
+	AOS.init();
 </script>
 
 <div class="bg-white">
