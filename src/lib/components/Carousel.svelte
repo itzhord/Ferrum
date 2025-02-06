@@ -51,7 +51,8 @@
 </script>
 
 <div class="mt-[-12rem] mb-[1rem] flex flex-col">
-    <h1 class="mb-[1rem] ml-[4rem] text-[2.5rem] font-bold text-black"
+    <h1
+        class="mb-[1rem] ml-[4rem] text-[2.5rem] font-bold text-black"
     >
         Testimonials
     </h1>
